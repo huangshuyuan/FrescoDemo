@@ -4,10 +4,14 @@ Demo图片：
 ![demo](http://upload-images.jianshu.io/upload_images/3805053-8f17f893d2a377da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 # 参考文档：
+
 Fresco开源地址：[https://github.com/facebook/fresco](https://github.com/facebook/fresco) 
+
 Fresco文档地址：[https://www.fresco-cn.org](https://www.fresco-cn.org/)
+
 Fresco实践总结：http://blog.csdn.net/yanzhenjie1003/article/details/58727881
-#引入Fresco
+
+# 引入Fresco
 这里告诉你如何在项目中引入 Fresco.
 使用 Android Studio 或者其他 Gradle 构建的项目
 编辑 build.gradle 文件:
@@ -35,7 +39,7 @@ dependencies {
 }
 ```
 
-#开始使用 Fresco
+# 开始使用 Fresco
 
 如果你仅仅是想简单下载一张网络图片，在下载完成之前，显示一张占位图，那么简单使用 [SimpleDraweeView](https://www.fresco-cn.org/javadoc/reference/com/facebook/drawee/view/SimpleDraweeView.html) 即可。
 在加载图片之前，你必须初始化Fresco类。你只需要调用Fresco.initialize一次即可完成初始化，在 Application里面做这件事再适合不过了（如下面的代码），注意多次的调用初始化是无意义的。
@@ -96,7 +100,7 @@ SimpleDraweeView draweeView = (SimpleDraweeView) findViewById(R.id.my_image_view
 draweeView.setImageURI(uri);
 ```
 
-#一些默认属性的设置
+# 一些默认属性的设置
 ```
 <com.facebook.drawee.view.SimpleDraweeView
   android:layout_width="20dp"
@@ -124,7 +128,7 @@ draweeView.setImageURI(uri);
   fresco:roundingBorderColor="@color/border_color" 描边的颜色。
 />
 ```
-#支持的URI
+# 支持的URI
  加载网络图片、url、assets、res、本地File图片
 先给出支持的URI格式列表（列表来自fresco-cn.org）：
 
