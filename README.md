@@ -2,7 +2,8 @@
 Demo图片：
 
 ![demo](http://upload-images.jianshu.io/upload_images/3805053-8f17f893d2a377da.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-#参考文档：
+
+# 参考文档：
 Fresco开源地址：[https://github.com/facebook/fresco](https://github.com/facebook/fresco) 
 Fresco文档地址：[https://www.fresco-cn.org](https://www.fresco-cn.org/)
 Fresco实践总结：http://blog.csdn.net/yanzhenjie1003/article/details/58727881
